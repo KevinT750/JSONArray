@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Permitir tráfico sin cifrar para 'localhost' o la IP de tu servidor -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">169.254.132.108</domain> <!-- O la IP de tu servidor -->
+    </domain-config>
+</network-security-config>
+
